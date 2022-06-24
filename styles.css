@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightslategrey;
+}
+
+html {background-color:beige;}
+.main-header 
+
+.nav ul {margin: 0;
+}
+.nav li { 
+    display: inline;
+}
+
+.nav li {
+    padding: 0 3%;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color:darkgrey;
+    text-decoration: none;
+}
+.nav a:hover
+{ background-color: whitesmoke;
+}
+
+.nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 2px solid darkgray;
+}
+.companyname { 
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.front-castle {
+    float: left;
+    height: 300px;
+    width: 400px;
+    border-radius: 30%;
+    padding-right: 10px;
+}
+.founder {
+padding: 10px;
+flex-direction: column;
+}
+
+.waiter{
+    float: right;
+    height: 300px;
+    width: 400px;
+    border-radius: 30%;
+}
+
+.footer{ 
+    background-color: darkgray;
+    color: beige;
+    padding: 1;
+    
+}
+
+.footerlocation {
+    text-align: left;
+    color:beige;
+    padding: 2em;
+}
+
+.links {
+    text-align: center;
+    color:beige;
+    padding: 2em;
+    list-style: none;
+    
+}
+
+.Coorporate{
+    float: right;
+    height: 300px;
+    width: 400px;
+    border-radius: 30%;
+}
+
+.h1-CE{
+    text-align: center;
+}
+
+.ce-about {margin: 1em;
+
+}
+
+.border{
+        border-top: 3px solid #bbb;
+      
+}
+
+.ce-delegate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin: 1em
+}
+
+.half-day {
+    padding: 10px;
+}
+.h2-p{
+      padding: 20px;
+}
+
+.Extras-h,.extras-p1 {
+    text-align: center;
+    line-height: 1.3;
+}
+
+.extras-photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    
+}
+
+.vehicle{
+    border-radius: 10%
+    
+}
+
+.cars {
+    display: flex;
+place-items: left; 
+}
+.rrr {
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.photographers {
+    display: grid;
+place-items: left; 
+}
+
+.photographers-content { 
+    padding: 10px;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+
+  #gallery img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+  }
+.food{
+
+    border-radius: 10%;
+    width: 25%;
+    height: 300px;
+    padding: 0 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wedding-h1{
+    text-align: center;
+}
+
+.Food-h2{
+    text-align: center;
+}
+
+.f-palace{
+    width: 100%;
+  height: 600px;
+  background-position: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 600px;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    padding-top: 8%;
+    color:white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    padding: 3px;
+    line-height: 1.5;
+}
+
+.FP-2{
+    border-radius: 20%;
+    padding-left: 20px;
+}
+.FP-P{
+    text-align: center;
+    font-size: 25px;
+}
+
+.t-head{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.table-fp{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.form{
+    display: block;
+    padding-left: 1px;   
+}
+
+.button{
+    padding: 10px;
+}
